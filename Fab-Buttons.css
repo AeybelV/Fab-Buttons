@@ -1,5 +1,5 @@
 /*Certain elements have their color set to RGBA(*,*,*) Without a alpha value
-DO NOT TAKE OUT THE A IN RGBA IF A ELEMENT IS LIKE THAT
+DO NOT TAKE OUT THE 'A' IN 'RGBA' IF A ELEMENT IS LIKE THAT
 */
 .fb-btn{
     height: 3em;
@@ -10,6 +10,73 @@ DO NOT TAKE OUT THE A IN RGBA IF A ELEMENT IS LIKE THAT
     position:relative;
     display: block;
     margin-top: 0.8em;
+    
+}
+.fb-btn-rounded1{
+    height: 3em;
+    width: 18em;
+    color: black;
+    background: white;
+    border: none;
+    position:relative;
+    display: block;
+    margin-top: 0.8em;
+    border-radius: 0.2em;
+}
+.fb-btn-rounded2{
+    height: 3em;
+    width: 18em;
+    color: black;
+    background: white;
+    border: none;
+    position:relative;
+    display: block;
+    margin-top: 0.8em;
+    border-radius: 0.3em;
+}
+.fb-btn-rounded3{
+    height: 3em;
+    width: 18em;
+    color: black;
+    background: white;
+    border: none;
+    position:relative;
+    display: block;
+    margin-top: 0.8em;
+    border-radius: 0.5em;
+}
+.fb-btn-rounded4{
+    height: 3em;
+    width: 18em;
+    color: black;
+    background: white;
+    border: none;
+    position:relative;
+    display: block;
+    margin-top: 0.8em;
+    border-radius: 0.8em;
+}
+.fb-btn-rounded5{
+    height: 3em;
+    width: 18em;
+    color: black;
+    background: white;
+    border: none;
+    position:relative;
+    display: block;
+    margin-top: 0.8em;
+    border-radius: 1em;
+}
+.fb-btn-pill{
+    height: 3em;
+    width: 18em;
+    color: black;
+    background: white;
+    border: none;
+    position:relative;
+    display: block;
+    margin-top: 0.8em;
+    border-radius: 10em;
     
 }
 button:focus {outline:0;}/*get rid of blue outline when button active*/
@@ -232,3 +299,15 @@ A background instance.
     border-right: 0.3em solid rgba(42, 132, 212);/*Darkend border(3D Feeling) */
     /*If changing color, change border color (-10,-12,-7)*/
 }
+
+
+
+
+
+
+
+
+
+
+
+
