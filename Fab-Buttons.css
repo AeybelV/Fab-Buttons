@@ -1,4 +1,6 @@
-
+/*Certain elements have their color set to RGBA(*,*,*) Without a alpha value
+DO NOT TAKE OUT THE A IN RGBA IF A ELEMENT IS LIKE THAT
+*/
 .fb-btn{
     height: 3em;
     width: 18em;
@@ -10,7 +12,7 @@
     margin-top: 0.8em;
     
 }
-button:focus {outline:0;}
+button:focus {outline:0;}/*get rid of blue outline when button active*/
 
 
 /* 
@@ -82,6 +84,78 @@ Fab-Button
 
 
 
+
+
+
+
+/* 
+fb-btn-caution
+Caution button
+Fab
+Fab-Button
+*/
+
+/*UNTOUCHED*/
+.fb-btn-caution{
+    color: white; /*Font Color*/
+    background: rgb(230, 126, 34);/*Primary Background color*/
+    border-right: 0.3em solid rgb(220, 114, 27);/*Darkend border(3D Feeling) */
+    /*If changing color, change border color (-10,-12,-7)*/
+}
+/*HOVER*/
+.fb-btn-caution:hover{
+    color: white; /*Font Color*/
+    background: rgb(233, 142, 59);/*Primary Background color*/
+    border-right: 0.3em solid rgba(45, 156, 237);/*Darkend border(3D Feeling) */
+    /*If changing color, change border color (-10,-12,-7)*/
+    box-shadow: 0.1em 0.15em 0.1em 0.01em rgba(28, 28, 28, 0.34);/*Best to keep same*/
+}
+/*CLICKED*/
+.fb-btn-caution:active{
+    color: white; /*Font Color*/
+    background: rgb(230, 116, 34);/*Primary Background color*/
+    border-right: 0.3em solid rgba(42, 132, 212);/*Darkend border(3D Feeling) */
+    /*If changing color, change border color (-10,-12,-7)*/
+}
+
+
+
+
+
+
+
+
+
+/* 
+fb-btn-danger
+Danger button
+Fab
+Fab-Button
+BIG PUSHY BUTTON OF DEAAAAAAATTTTHHHH!
+*/
+
+/*UNTOUCHED - DONT TOUCH DE BUTTTON!*/
+.fb-btn-danger{
+    color: white; /*Font Color*/
+    background:rgb(231, 76, 60);/*Primary Background color*/
+    border-right: 0.3em solid rgb(221, 62, 53);/*Darkend border(3D Feeling) */
+    /*If changing color, change border color (-10,-12,-7)*/
+}
+/*HOVER - What!?...You better not....Dont even...no.....*/
+.fb-btn-danger:hover{
+    color: white; /*Font Color*/
+    background: rgb(234, 92, 85);/*Primary Background color*/
+    border-right: 0.3em solid rgba(45, 156, 237);/*Darkend border(3D Feeling) */
+    /*If changing color, change border color (-10,-12,-7)*/
+    box-shadow: 0.1em 0.15em 0.1em 0.01em rgba(28, 28, 28, 0.34);/*Best to keep same*/
+}
+/*CLICKED - Well their goes Pakistan*/
+.fb-btn-danger:active{
+    color: white; /*Font Color*/
+    background: rgb(234, 66, 85);/*Primary Background color*/
+    border-right: 0.3em solid rgba(42, 132, 212);/*Darkend border(3D Feeling) */
+    /*If changing color, change border color (-10,-12,-7)*/
+}
 
 
 
