@@ -1,0 +1,58 @@
+
+.fb-btn{
+    height: 3em;
+    width: 18em;
+    color: black;
+    background: white;
+    border: none;
+    position:relative;
+    display: block;
+    margin-top: 0.8em;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 
+fb-btn-primary
+Primary button
+Fab
+Fab-Button
+*/
+
+/*UNTOUCHED*/
+.fb-btn-primary{
+    color: white; /*Font Color*/
+    background: rgb(52, 152, 219);/*Primary Background color*/
+    border-right: 0.3em solid rgb(42, 140, 212);/*Darkend border(3D Feeling) */
+    /*If changing color, change border color (-10,-12,-7)*/
+}
+/*HOVER*/
+.fb-btn-primary:hover{
+    color: white; /*Font Color*/
+    background: rgb(55, 168, 244);/*Primary Background color*/
+    border-right: 0.3em solid rgba(45, 156, 237);/*Darkend border(3D Feeling) */
+    /*If changing color, change border color (-10,-12,-7)*/
+    box-shadow: 0.1em 0.15em 0.1em 0.01em rgba(28, 28, 28, 0.34);/*Best to keep same*/
+}
+/*CLICKED*/
+.fb-btn-primary:active{
+    color: white; /*Font Color*/
+    background: rgb(52, 142, 219);/*Primary Background color*/
+    border-right: 0.3em solid rgba(42, 132, 212);/*Darkend border(3D Feeling) */
+    /*If changing color, change border color (-10,-12,-7)*/
+}
+
+
+
+
+
+
