@@ -159,3 +159,76 @@ BIG PUSHY BUTTON OF DEAAAAAAATTTTHHHH!
 
 
 
+
+
+
+/* 
+fb-btn-secondary
+Secondary button
+Fab
+Fab-Button
+Just a purple button.....
+*/
+
+/*UNTOUCHED - Did you know that Purple in Roman times was only for superior or royals*/
+.fb-btn-secondary{
+    color: white; /*Font Color*/
+    background:rgb(155, 89, 182);/*Primary Background color*/
+    border-right: 0.3em solid rgb(145, 77, 175);/*Darkend border(3D Feeling) */
+    /*If changing color, change border color (-10,-12,-7)*/
+}
+/*HOVER - Im gonna keep bugging you, you destroyed a mighty country indeed!*/
+.fb-btn-secondary:hover{
+    color: white; /*Font Color*/
+    background: rgb(158, 105, 207);/*Primary Background color*/
+    border-right: 0.3em solid rgba(45, 156, 207);/*Darkend border(3D Feeling) */
+    /*If changing color, change border color (-10,-12,-7)*/
+    box-shadow: 0.1em 0.15em 0.1em 0.01em rgba(28, 28, 28, 0.34);/*Best to keep same*/
+}
+/*CLICKED - LETS BE FRIENDS*/
+.fb-btn-secondary:active{
+    color: white; /*Font Color*/
+    background: rgb(155, 79, 182);/*Primary Background color*/
+    border-right: 0.3em solid rgba(42, 132, 212);/*Darkend border(3D Feeling) */
+    /*If changing color, change border color (-10,-12,-7)*/
+}
+
+
+
+
+
+
+
+
+
+
+/* 
+fb-btn-background
+Background button
+Fab
+Fab-Button
+A background instance.
+*/
+
+/*UNTOUCHED*/
+.fb-btn-background{
+    color: white; /*Font Color*/
+    background:rgb(26, 188, 156);/*Primary Background color*/
+    border-right: 0.3em solid rgb(16, 176, 149);/*Darkend border(3D Feeling) */
+    /*If changing color, change border color (-10,-12,-7)*/
+}
+/*HOVER*/
+.fb-btn-background:hover{
+    color: white; /*Font Color*/
+    background: rgb(29, 204, 181);/*Primary Background color*/
+    border-right: 0.3em solid rgba(45, 156, 207);/*Darkend border(3D Feeling) */
+    /*If changing color, change border color (-10,-12,-7)*/
+    box-shadow: 0.1em 0.15em 0.1em 0.01em rgba(28, 28, 28, 0.34);/*Best to keep same*/
+}
+/*CLICKED*/
+.fb-btn-background:active{
+    color: white; /*Font Color*/
+    background: rgb(26, 198, 156);/*Primary Background color*/
+    border-right: 0.3em solid rgba(42, 132, 212);/*Darkend border(3D Feeling) */
+    /*If changing color, change border color (-10,-12,-7)*/
+}
