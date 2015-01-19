@@ -13,14 +13,6 @@
 
 
 
-
-
-
-
-
-
-
-
 /* 
 fb-btn-primary
 Primary button
@@ -50,6 +42,43 @@ Fab-Button
     border-right: 0.3em solid rgba(42, 132, 212);/*Darkend border(3D Feeling) */
     /*If changing color, change border color (-10,-12,-7)*/
 }
+
+
+
+
+
+
+/* 
+fb-btn-action
+Action button
+Fab
+Fab-Button
+*/
+
+/*UNTOUCHED*/
+.fb-btn-action{
+    color: white; /*Font Color*/
+    background: rgb(46, 204, 113);/*Primary Background color*/
+    border-right: 0.3em solid rgb(36, 192, 106);/*Darkend border(3D Feeling) */
+    /*If changing color, change border color (-10,-12,-7)*/
+}
+/*HOVER*/
+.fb-btn-action:hover{
+    color: white; /*Font Color*/
+    background: rgb(49, 220, 138);/*Primary Background color*/
+    border-right: 0.3em solid rgba(45, 156, 237);/*Darkend border(3D Feeling) */
+    /*If changing color, change border color (-10,-12,-7)*/
+    box-shadow: 0.1em 0.15em 0.1em 0.01em rgba(28, 28, 28, 0.34);/*Best to keep same*/
+}
+/*CLICKED*/
+.fb-btn-action:active{
+    color: white; /*Font Color*/
+    background: rgb(46, 194, 113);/*Primary Background color*/
+    border-right: 0.3em solid rgba(42, 132, 212);/*Darkend border(3D Feeling) */
+    /*If changing color, change border color (-10,-12,-7)*/
+}
+
+
 
 
 
