@@ -340,29 +340,30 @@ Fab-Button
 /*UNTOUCHED*/
 .fb-btn-primary{
     color: white; /*Font Color*/
-    background: rgb(52, 152, 219);/*Primary Background color*/
-    border-right: 0.3em solid rgb(42, 140, 212);/*Darkend border(3D Feeling) */
+    background: rgb(65, 178, 255);/*Primary Background color*/
+    border-bottom: 0.3em solid rgb(38, 138, 211);/*Darkend border(3D Feeling) */
     /*If changing color, change border color (-10,-12,-7)*/
 }
 /*HOVER*/
 .fb-btn-primary:hover{
     color: white; /*Font Color*/
-    background: rgb(55, 168, 244);/*Primary Background color*/
-    border-right: 0.3em solid rgba(45, 156, 237);/*Darkend border(3D Feeling) */
+    background: rgb(113, 198, 255);/*Primary Background color*/
+    border-bottom: 0.39em solid rgb(38, 138, 211);/*Darkend border(3D Feeling) */
     /*If changing color, change border color (-10,-12,-7)*/
-    box-shadow: 0.1em 0.15em 0.1em 0.01em rgba(28, 28, 28, 0.34);/*Best to keep same*/
+    
+    
 }
 /*CLICKED*/
 .fb-btn-primary:active{
     color: white; /*Font Color*/
-    background: rgb(52, 142, 219);/*Primary Background color*/
-    border-right: 0.3em solid rgba(42, 132, 212);/*Darkend border(3D Feeling) */
+    background: rgb(51, 154, 252);/*Primary Background color*/
+    border-bottom: 0.25em solid rgb(42, 140, 212);/*Darkend border(3D Feeling) */
     /*If changing color, change border color (-10,-12,-7)*/
 }
 
 
 
-
+/*9 */
 
 
 /* 
@@ -375,23 +376,23 @@ Fab-Button
 /*UNTOUCHED*/
 .fb-btn-action{
     color: white; /*Font Color*/
-    background: rgb(46, 204, 113);/*Primary Background color*/
-    border-right: 0.3em solid rgb(36, 192, 106);/*Darkend border(3D Feeling) */
+    background: rgb(1, 239, 103);/*Primary Background color*/
+    border-bottom: 0.3em solid rgb(23, 191, 99);/*Darkend border(3D Feeling) */
     /*If changing color, change border color (-10,-12,-7)*/
 }
 /*HOVER*/
 .fb-btn-action:hover{
     color: white; /*Font Color*/
-    background: rgb(49, 220, 138);/*Primary Background color*/
-    border-right: 0.3em solid rgba(45, 156, 237);/*Darkend border(3D Feeling) */
+    background: rgb(48, 242, 95);/*Primary Background color*/
+    border-bottom: 0.39em solid rgb(23, 191, 99);/*Darkend border(3D Feeling) */
     /*If changing color, change border color (-10,-12,-7)*/
-    box-shadow: 0.1em 0.15em 0.1em 0.01em rgba(28, 28, 28, 0.34);/*Best to keep same*/
+    
 }
 /*CLICKED*/
 .fb-btn-action:active{
     color: white; /*Font Color*/
-    background: rgb(46, 194, 113);/*Primary Background color*/
-    border-right: 0.3em solid rgba(42, 132, 212);/*Darkend border(3D Feeling) */
+    background: rgb(3, 226, 96);/*Primary Background color*/
+    border-bottom: 0.25em solid rgb(23, 191, 99);/*Darkend border(3D Feeling) */
     /*If changing color, change border color (-10,-12,-7)*/
 }
 
@@ -413,23 +414,23 @@ Fab-Button
 /*UNTOUCHED*/
 .fb-btn-caution{
     color: white; /*Font Color*/
-    background: rgb(230, 126, 34);/*Primary Background color*/
-    border-right: 0.3em solid rgb(220, 114, 27);/*Darkend border(3D Feeling) */
+    background: rgb(244, 103, 0);/*Primary Background color*/
+    border-bottom: 0.3em solid rgb(234, 91, 7);/*Darkend border(3D Feeling) */
     /*If changing color, change border color (-10,-12,-7)*/
 }
 /*HOVER*/
 .fb-btn-caution:hover{
     color: white; /*Font Color*/
-    background: rgb(233, 142, 59);/*Primary Background color*/
-    border-right: 0.3em solid rgba(45, 156, 237);/*Darkend border(3D Feeling) */
+    background: rgb(247, 122, 31);/*Primary Background color*/
+    border-bottom: 0.39em solid rgb(234, 91, 7);/*Darkend border(3D Feeling) */
     /*If changing color, change border color (-10,-12,-7)*/
-    box-shadow: 0.1em 0.15em 0.1em 0.01em rgba(28, 28, 28, 0.34);/*Best to keep same*/
+    
 }
 /*CLICKED*/
 .fb-btn-caution:active{
     color: white; /*Font Color*/
-    background: rgb(230, 116, 34);/*Primary Background color*/
-    border-right: 0.3em solid rgba(42, 132, 212);/*Darkend border(3D Feeling) */
+    background: rgb(244, 103, 0);/*Primary Background color*/
+    border-bottom: 0.25em solid rgb(234, 91, 7);/*Darkend border(3D Feeling) */
     /*If changing color, change border color (-10,-12,-7)*/
 }
 
@@ -452,23 +453,22 @@ BIG PUSHY BUTTON OF DEAAAAAAATTTTHHHH!
 /*UNTOUCHED - DONT TOUCH DE BUTTTON!*/
 .fb-btn-danger{
     color: white; /*Font Color*/
-    background:rgb(231, 76, 60);/*Primary Background color*/
-    border-right: 0.3em solid rgb(221, 62, 53);/*Darkend border(3D Feeling) */
+    background:rgb(242, 34, 13);/*Primary Background color*/
+    border-bottom: 0.3em solid rgb(232, 22, 6);/*Darkend border(3D Feeling) */
     /*If changing color, change border color (-10,-12,-7)*/
 }
 /*HOVER - What!?...You better not....Dont even...no.....*/
 .fb-btn-danger:hover{
     color: white; /*Font Color*/
-    background: rgb(234, 92, 85);/*Primary Background color*/
-    border-right: 0.3em solid rgba(45, 156, 237);/*Darkend border(3D Feeling) */
+    background: rgb(255, 23, 0);/*Primary Background color*/
+    border-bottom: 0.39em solid rgb(224, 33, 19);/*Darkend border(3D Feeling) */
     /*If changing color, change border color (-10,-12,-7)*/
-    box-shadow: 0.1em 0.15em 0.1em 0.01em rgba(28, 28, 28, 0.34);/*Best to keep same*/
 }
 /*CLICKED - Well their goes Pakistan*/
 .fb-btn-danger:active{
     color: white; /*Font Color*/
-    background: rgb(234, 66, 85);/*Primary Background color*/
-    border-right: 0.3em solid rgba(42, 132, 212);/*Darkend border(3D Feeling) */
+    background: rgb(247, 0, 28);/*Primary Background color*/
+    border-bottom: 0.25em solid rgb(224, 33, 19);/*Darkend border(3D Feeling) */
     /*If changing color, change border color (-10,-12,-7)*/
 }
 
@@ -488,23 +488,23 @@ Just a purple button.....
 /*UNTOUCHED - Did you know that Purple in Roman times was only for superior or royal*/
 .fb-btn-secondary{
     color: white; /*Font Color*/
-    background:rgb(155, 89, 182);/*Primary Background color*/
-    border-right: 0.3em solid rgb(145, 77, 175);/*Darkend border(3D Feeling) */
+    background:rgb(142, 5, 198);/*Primary Background color*/
+    border-bottom: 0.3em solid rgb(126, 19, 181);/*Darkend border(3D Feeling) */
     /*If changing color, change border color (-10,-12,-7)*/
 }
 /*HOVER - Im gonna keep bugging you, you destroyed a mighty country indeed!*/
 .fb-btn-secondary:hover{
     color: white; /*Font Color*/
-    background: rgb(158, 105, 207);/*Primary Background color*/
-    border-right: 0.3em solid rgba(45, 156, 207);/*Darkend border(3D Feeling) */
+    background: rgb(161, 0, 227);/*Primary Background color*/
+    border-bottom: 0.39em solid rgb(126, 19, 181);/*Darkend border(3D Feeling) */
     /*If changing color, change border color (-10,-12,-7)*/
-    box-shadow: 0.1em 0.15em 0.1em 0.01em rgba(28, 28, 28, 0.34);/*Best to keep same*/
+   
 }
 /*CLICKED - LETS BE FRIENDS*/
 .fb-btn-secondary:active{
     color: white; /*Font Color*/
-    background: rgb(155, 79, 182);/*Primary Background color*/
-    border-right: 0.3em solid rgba(42, 132, 212);/*Darkend border(3D Feeling) */
+    background: rgb(149, 32, 209);/*Primary Background color*/
+    border-bottom: 0.25em solid rgb(126, 19, 181);/*Darkend border(3D Feeling) */
     /*If changing color, change border color (-10,-12,-7)*/
 }
 
@@ -528,23 +528,23 @@ A background instance.
 /*UNTOUCHED*/
 .fb-btn-background{
     color: white; /*Font Color*/
-    background:rgb(26, 188, 156);/*Primary Background color*/
-    border-right: 0.3em solid rgb(16, 176, 149);/*Darkend border(3D Feeling) */
+    background:rgb(0, 204, 181);/*Primary Background color*/
+    border-bottom: 0.3em solid rgb(16, 176, 149);/*Darkend border(3D Feeling) */
     /*If changing color, change border color (-10,-12,-7)*/
 }
 /*HOVER*/
 .fb-btn-background:hover{
     color: white; /*Font Color*/
-    background: rgb(29, 204, 181);/*Primary Background color*/
-    border-right: 0.3em solid rgba(45, 156, 207);/*Darkend border(3D Feeling) */
+    background: rgb(0, 221, 196);/*Primary Background color*/
+    border-bottom: 0.39em solid rgb(16, 176, 149);/*Darkend border(3D Feeling) */
     /*If changing color, change border color (-10,-12,-7)*/
-    box-shadow: 0.1em 0.15em 0.1em 0.01em rgba(28, 28, 28, 0.34);/*Best to keep same*/
+    
 }
 /*CLICKED*/
 .fb-btn-background:active{
     color: white; /*Font Color*/
-    background: rgb(26, 198, 156);/*Primary Background color*/
-    border-right: 0.3em solid rgba(42, 132, 212);/*Darkend border(3D Feeling) */
+    background: rgb(0, 216, 179);/*Primary Background color*/
+    border-bottom: 0.25em solid rgb(16, 176, 149);/*Darkend border(3D Feeling) */
     /*If changing color, change border color (-10,-12,-7)*/
 }
 
