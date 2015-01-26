@@ -330,6 +330,49 @@ DO NOT TAKE OUT THE 'A' IN 'RGBA' IF A ELEMENT IS LIKE THAT
 button:focus {outline:0;}/*get rid of blue outline when button active*/
 
 
+.fb-btn-word-primary{
+    display: block;
+    position: relative;
+    font-size: 3em;
+    width: 2em;
+    color: rgb(65, 178, 255);
+    text-shadow:0em 0.03em 0em rgb(38, 138, 211), 
+        0em 0.05em 0em rgb(38, 138, 211),
+        0em 0.07em 0em rgb(38, 138, 211),
+        0em 0.09em 0em rgb(38, 138, 211);
+    cursor: pointer;
+    font-family: "arial";
+}
+.fb-btn-word-primary:hover{
+    display: block;
+    position: relative;
+    font-size: 3em;
+    width: 2em;
+    color: rgb(113, 198, 255);
+    text-shadow:0em 0.03em 0em rgb(38, 138, 211), 
+        0em 0.05em 0em rgb(38, 138, 211),
+        0em 0.06em 0em rgb(38, 138, 211),
+        0em 0.09em 0em rgb(38, 138, 211),
+        0em 0.11em 0em rgb(38, 138, 211);
+    cursor: pointer;
+    
+}
+.fb-btn-word-primary:active{
+    display: block;
+    position: relative;
+    font-size: 3em;
+    width: 2em;
+    color:  rgb(51, 154, 252);
+    text-shadow:0em 0.03em 0em rgb(38, 138, 211),
+        0em 0.04em 0em rgb(38, 138, 211),
+        0em 0.05em 0em rgb(38, 138, 211),
+        0em 0.06em 0em rgb(38, 138, 211);
+      
+    cursor: pointer;
+    
+}
+
+
 /* 
 fb-btn-primary
 Primary button
@@ -363,7 +406,8 @@ Fab-Button
 
 
 
-/*9 */
+
+
 
 
 /* 
