@@ -1,0 +1,707 @@
+button:focus {
+  outline: 0;
+}
+/*get rid of blue outline when button active*/
+.fb-btn {
+  display: inline block;
+  cursor: pointer;
+  font-family: "arial";
+  height: 5em;
+  width: 20%;
+  background: white;
+  border: none;
+  text-align: center;
+  color: black;
+  font-size: 100%;
+  z-index: 99;
+  margin-bottom: 0.5em;
+}
+/*161 0 227
+rgb(149, 32, 209)*/
+.fbhover {
+  -o-transition-timing-function: ease;
+  -o-transition: border-bottom 0.25s, background-color 0.25s;
+  -moz-transition-timing-function: ease;
+  -moz-transition: border-bottom 0.25s, background-color 0.25s;
+  transition-timing-function: ease;
+  transition: background-color 0.25s;
+  -webkit-transition: background-color 0.25s;
+  -webkit-transition-timing-function: ease;
+}
+.fbactive {
+  -o-transition-timing-function: ease;
+  -o-transition: border-bottom 0.1s, background-color 0.1s;
+  -moz-transition-timing-function: ease;
+  -moz-transition: border-bottom 0.1s, background-color 0.1s;
+  transition-timing-function: ease;
+  transition: background-color 0.1s;
+  -webkit-transition: background-color 0.1s;
+  -webkit-transition-timing-function: ease;
+}
+.fb-btn-primary {
+  display: block;
+  cursor: pointer;
+  font-family: "arial";
+  background: #41b2ff;
+  border: none;
+  text-align: center;
+  color: white;
+  font-size: 1em;
+}
+.fb-btn-primary:hover {
+  display: block;
+  cursor: pointer;
+  font-family: "arial";
+  background: #71c6ff;
+  border: none;
+  text-align: center;
+  color: white;
+  -o-transition-timing-function: ease;
+  -o-transition: border-bottom 0.25s, background-color 0.25s;
+  -moz-transition-timing-function: ease;
+  -moz-transition: border-bottom 0.25s, background-color 0.25s;
+  transition-timing-function: ease;
+  transition: background-color 0.25s;
+  -webkit-transition: background-color 0.25s;
+  -webkit-transition-timing-function: ease;
+}
+.fb-btn-primary:active {
+  display: block;
+  cursor: pointer;
+  font-family: "arial";
+  background: #00a7ff;
+  border: none;
+  text-align: center;
+  color: white;
+  -o-transition-timing-function: ease;
+  -o-transition: border-bottom 0.1s, background-color 0.1s;
+  -moz-transition-timing-function: ease;
+  -moz-transition: border-bottom 0.1s, background-color 0.1s;
+  transition-timing-function: ease;
+  transition: background-color 0.1s;
+  -webkit-transition: background-color 0.1s;
+  -webkit-transition-timing-function: ease;
+}
+.fb-btn-action {
+  display: block;
+  cursor: pointer;
+  font-family: "arial";
+  background: #01ef67;
+  border: none;
+  text-align: center;
+  color: white;
+}
+.fb-btn-action:hover {
+  display: block;
+  cursor: pointer;
+  font-family: "arial";
+  background: #30f25f;
+  border: none;
+  text-align: center;
+  color: white;
+  -o-transition-timing-function: ease;
+  -o-transition: border-bottom 0.25s, background-color 0.25s;
+  -moz-transition-timing-function: ease;
+  -moz-transition: border-bottom 0.25s, background-color 0.25s;
+  transition-timing-function: ease;
+  transition: background-color 0.25s;
+  -webkit-transition: background-color 0.25s;
+  -webkit-transition-timing-function: ease;
+}
+.fb-btn-action:active {
+  display: block;
+  cursor: pointer;
+  font-family: "arial";
+  background: #03e260;
+  border: none;
+  text-align: center;
+  color: white;
+  -o-transition-timing-function: ease;
+  -o-transition: border-bottom 0.1s, background-color 0.1s;
+  -moz-transition-timing-function: ease;
+  -moz-transition: border-bottom 0.1s, background-color 0.1s;
+  transition-timing-function: ease;
+  transition: background-color 0.1s;
+  -webkit-transition: background-color 0.1s;
+  -webkit-transition-timing-function: ease;
+}
+.fb-btn-caution {
+  display: block;
+  cursor: pointer;
+  font-family: "arial";
+  background: #f46700;
+  border: none;
+  text-align: center;
+  color: white;
+}
+.fb-btn-caution:hover {
+  display: block;
+  cursor: pointer;
+  font-family: "arial";
+  background: #f77a1f;
+  border: none;
+  text-align: center;
+  color: white;
+  -o-transition-timing-function: ease;
+  -o-transition: border-bottom 0.25s, background-color 0.25s;
+  -moz-transition-timing-function: ease;
+  -moz-transition: border-bottom 0.25s, background-color 0.25s;
+  transition-timing-function: ease;
+  transition: background-color 0.25s;
+  -webkit-transition: background-color 0.25s;
+  -webkit-transition-timing-function: ease;
+}
+.fb-btn-caution:active {
+  display: block;
+  cursor: pointer;
+  font-family: "arial";
+  background: #f46700;
+  border: none;
+  text-align: center;
+  color: white;
+  -o-transition-timing-function: ease;
+  -o-transition: border-bottom 0.1s, background-color 0.1s;
+  -moz-transition-timing-function: ease;
+  -moz-transition: border-bottom 0.1s, background-color 0.1s;
+  transition-timing-function: ease;
+  transition: background-color 0.1s;
+  -webkit-transition: background-color 0.1s;
+  -webkit-transition-timing-function: ease;
+}
+.fb-btn-danger {
+  display: block;
+  cursor: pointer;
+  font-family: "arial";
+  background: #ff1700;
+  border: none;
+  text-align: center;
+  color: white;
+}
+.fb-btn-danger:hover {
+  display: block;
+  cursor: pointer;
+  font-family: "arial";
+  background: #ff291f;
+  border: none;
+  text-align: center;
+  color: white;
+  -o-transition-timing-function: ease;
+  -o-transition: border-bottom 0.25s, background-color 0.25s;
+  -moz-transition-timing-function: ease;
+  -moz-transition: border-bottom 0.25s, background-color 0.25s;
+  transition-timing-function: ease;
+  transition: background-color 0.25s;
+  -webkit-transition: background-color 0.25s;
+  -webkit-transition-timing-function: ease;
+}
+.fb-btn-danger:active {
+  display: block;
+  cursor: pointer;
+  font-family: "arial";
+  background: #f7001c;
+  border: none;
+  text-align: center;
+  color: white;
+  -o-transition-timing-function: ease;
+  -o-transition: border-bottom 0.1s, background-color 0.1s;
+  -moz-transition-timing-function: ease;
+  -moz-transition: border-bottom 0.1s, background-color 0.1s;
+  transition-timing-function: ease;
+  transition: background-color 0.1s;
+  -webkit-transition: background-color 0.1s;
+  -webkit-transition-timing-function: ease;
+}
+.fb-btn-secondary {
+  display: block;
+  cursor: pointer;
+  font-family: "arial";
+  background: #660198;
+  border: none;
+  text-align: center;
+  color: white;
+}
+.fb-btn-secondary:hover {
+  display: block;
+  cursor: pointer;
+  font-family: "arial";
+  background: #8000b4;
+  border: none;
+  text-align: center;
+  color: white;
+  -o-transition-timing-function: ease;
+  -o-transition: border-bottom 0.25s, background-color 0.25s;
+  -moz-transition-timing-function: ease;
+  -moz-transition: border-bottom 0.25s, background-color 0.25s;
+  transition-timing-function: ease;
+  transition: background-color 0.25s;
+  -webkit-transition: background-color 0.25s;
+  -webkit-transition-timing-function: ease;
+}
+.fb-btn-secondary:active {
+  display: block;
+  cursor: pointer;
+  font-family: "arial";
+  background: #7100a8;
+  border: none;
+  text-align: center;
+  color: white;
+  -o-transition-timing-function: ease;
+  -o-transition: border-bottom 0.1s, background-color 0.1s;
+  -moz-transition-timing-function: ease;
+  -moz-transition: border-bottom 0.1s, background-color 0.1s;
+  transition-timing-function: ease;
+  transition: background-color 0.1s;
+  -webkit-transition: background-color 0.1s;
+  -webkit-transition-timing-function: ease;
+}
+.fb-btn-background {
+  display: block;
+  cursor: pointer;
+  font-family: "arial";
+  background: #00ccb5;
+  border: none;
+  text-align: center;
+  color: white;
+}
+.fb-btn-background:hover {
+  display: block;
+  cursor: pointer;
+  font-family: "arial";
+  background: #00ddc4;
+  border: none;
+  text-align: center;
+  color: white;
+  -o-transition-timing-function: ease;
+  -o-transition: border-bottom 0.25s, background-color 0.25s;
+  -moz-transition-timing-function: ease;
+  -moz-transition: border-bottom 0.25s, background-color 0.25s;
+  transition-timing-function: ease;
+  transition: background-color 0.25s;
+  -webkit-transition: background-color 0.25s;
+  -webkit-transition-timing-function: ease;
+}
+.fb-btn-background:active {
+  display: block;
+  cursor: pointer;
+  font-family: "arial";
+  background: #00d8b3;
+  border: none;
+  text-align: center;
+  color: white;
+  -o-transition-timing-function: ease;
+  -o-transition: border-bottom 0.1s, background-color 0.1s;
+  -moz-transition-timing-function: ease;
+  -moz-transition: border-bottom 0.1s, background-color 0.1s;
+  transition-timing-function: ease;
+  transition: background-color 0.1s;
+  -webkit-transition: background-color 0.1s;
+  -webkit-transition-timing-function: ease;
+}
+.fb-btn-rounded1 {
+  color: white;
+  border: none;
+  position: relative;
+  display: block;
+  margin-top: 0.8em;
+  border-radius: 0.2em;
+}
+.fb-btn-rounded1-tr {
+  color: white;
+  border: none;
+  position: relative;
+  display: block;
+  margin-top: 0.8em;
+  border-top-right-radius: 0.2em;
+}
+.fb-btn-rounded1-tl {
+  color: white;
+  border: none;
+  position: relative;
+  display: block;
+  margin-top: 0.8em;
+  border-top-left-radius: 0.2em;
+}
+.fb-btn-rounded1-br {
+  color: white;
+  border: none;
+  position: relative;
+  display: block;
+  margin-top: 0.8em;
+  border-bottom-right-radius: 0.2em;
+}
+.fb-btn-rounded1-bl {
+  color: white;
+  border: none;
+  position: relative;
+  display: block;
+  margin-top: 0.8em;
+  border-bottom-left-radius: 0.2em;
+}
+.fb-btn-rounded2 {
+  color: white;
+  border: none;
+  position: relative;
+  display: block;
+  margin-top: 0.8em;
+  border-radius: 0.3em;
+}
+.fb-btn-rounded2-tl {
+  color: white;
+  border: none;
+  position: relative;
+  display: block;
+  margin-top: 0.8em;
+  border-top-left-radius: 0.3em;
+}
+.fb-btn-rounded2-tr {
+  color: white;
+  border: none;
+  position: relative;
+  display: block;
+  margin-top: 0.8em;
+  border-top-right-radius: 0.3em;
+}
+.fb-btn-rounded2-bl {
+  color: white;
+  border: none;
+  position: relative;
+  display: block;
+  margin-top: 0.8em;
+  border-bottom-left-radius: 0.3em;
+}
+.fb-btn-rounded2-br {
+  color: white;
+  border: none;
+  position: relative;
+  display: block;
+  margin-top: 0.8em;
+  border-bottom-right-radius: 0.3em;
+}
+.fb-btn-rounded3 {
+  color: white;
+  border: none;
+  position: relative;
+  display: block;
+  margin-top: 0.8em;
+  border-radius: 0.5em;
+}
+.fb-btn-rounded3-tr {
+  color: white;
+  border: none;
+  position: relative;
+  display: block;
+  margin-top: 0.8em;
+  border-top-right-radius: 0.5em;
+}
+.fb-btn-rounded3-tl {
+  color: white;
+  border: none;
+  position: relative;
+  display: block;
+  margin-top: 0.8em;
+  border-top-left-radius: 0.5em;
+}
+.fb-btn-rounded3-bl {
+  color: white;
+  border: none;
+  position: relative;
+  display: block;
+  margin-top: 0.8em;
+  border-bottom-left-radius: 0.5em;
+}
+.fb-btn-rounded3-br {
+  color: white;
+  border: none;
+  position: relative;
+  display: block;
+  margin-top: 0.8em;
+  border-bottom-right-radius: 0.5em;
+}
+.fb-btn-rounded4 {
+  color: white;
+  border: none;
+  position: relative;
+  display: block;
+  margin-top: 0.8em;
+  border-radius: 0.8em;
+}
+.fb-btn-rounded4-tl {
+  color: white;
+  border: none;
+  position: relative;
+  display: block;
+  margin-top: 0.8em;
+  border-top-left-radius: 0.8em;
+}
+.fb-btn-rounded4-tr {
+  color: white;
+  border: none;
+  position: relative;
+  display: block;
+  margin-top: 0.8em;
+  border-top-right-radius: 0.8em;
+}
+.fb-btn-rounded4-bl {
+  color: white;
+  border: none;
+  position: relative;
+  display: block;
+  margin-top: 0.8em;
+  border-bottom-left-radius: 0.8em;
+}
+.fb-btn-rounded4-br {
+  color: white;
+  border: none;
+  position: relative;
+  display: block;
+  margin-top: 0.8em;
+  border-bottom-right-radius: 0.8em;
+}
+.fb-btn-rounded5 {
+  color: white;
+  border: none;
+  position: relative;
+  display: block;
+  margin-top: 0.8em;
+  border-radius: 1em;
+}
+.fb-btn-rounded5-tl {
+  color: white;
+  border: none;
+  position: relative;
+  display: block;
+  margin-top: 0.8em;
+  border-top-left-radius: 1em;
+}
+.fb-btn-rounded5-tr {
+  color: white;
+  border: none;
+  position: relative;
+  display: block;
+  margin-top: 0.8em;
+  border-top-right-radius: 1em;
+}
+.fb-btn-rounded5-bl {
+  color: white;
+  border: none;
+  position: relative;
+  display: block;
+  margin-top: 0.8em;
+  border-bottom-left-radius: 1em;
+}
+.fb-btn-rounded5-br {
+  color: white;
+  border: none;
+  position: relative;
+  display: block;
+  margin-top: 0.8em;
+  border-bottom-right-radius: 1em;
+}
+.fb-btn-pill {
+  color: white;
+  border: none;
+  position: relative;
+  display: block;
+  margin-top: 0.8em;
+  border-radius: 10em;
+}
+.3dhover {
+  -o-transition-timing-function: ease;
+  -o-transition: border-bottom 0.25s, background-color 0.25s;
+  -moz-transition-timing-function: ease;
+  -moz-transition: border-bottom 0.25s, background-color 0.25s;
+  transition-timing-function: ease;
+  transition: border-bottom 0.25s, background-color 0.25s;
+  -webkit-transition: border-bottom 0.25s, background-color 0.25s;
+  -webkit-transition-timing-function: ease;
+}
+.3dactive {
+  -o-transition-timing-function: ease;
+  -o-transition: border-bottom 0.1s, background-color 0.1s;
+  -moz-transition-timing-function: ease;
+  -moz-transition: border-bottom 0.1s, background-color 0.1s;
+  transition-timing-function: ease;
+  transition: border-bottom 0.1s, background-color 0.1s;
+  -webkit-transition: border-bottom 0.1s, background-color 0.1s;
+  -webkit-transition-timing-function: ease;
+}
+.fb-btn-primary-3d {
+  border-bottom: 6px solid #0097fe;
+  background-color: #41b2ff;
+  color: white;
+  display: block;
+}
+.fb-btn-primary-3d:hover {
+  background-color: #71c6ff;
+  border-bottom: 8px solid #0097fe;
+  -o-transition-timing-function: ease;
+  -o-transition: border-bottom 0.25s, background-color 0.25s;
+  -moz-transition-timing-function: ease;
+  -moz-transition: border-bottom 0.25s, background-color 0.25s;
+  transition-timing-function: ease;
+  transition: border-bottom 0.25s, background-color 0.25s;
+  -webkit-transition: border-bottom 0.25s, background-color 0.25s;
+  -webkit-transition-timing-function: ease;
+}
+.fb-btn-primary-3d:active {
+  background-color: #00a7ff;
+  border-bottom: 4px solid #0097fe;
+  -o-transition-timing-function: ease;
+  -o-transition: border-bottom 0.1s, background-color 0.1s;
+  -moz-transition-timing-function: ease;
+  -moz-transition: border-bottom 0.1s, background-color 0.1s;
+  transition-timing-function: ease;
+  transition: border-bottom 0.1s, background-color 0.1s;
+  -webkit-transition: border-bottom 0.1s, background-color 0.1s;
+  -webkit-transition-timing-function: ease;
+}
+.fb-btn-action-3d {
+  border-bottom: 6px solid #01d65c;
+  background-color: #01ef67;
+  color: white;
+  display: block;
+}
+.fb-btn-action-3d:hover {
+  background-color: #30f25f;
+  border-bottom: 8px solid #01d65c;
+  -o-transition-timing-function: ease;
+  -o-transition: border-bottom 0.25s, background-color 0.25s;
+  -moz-transition-timing-function: ease;
+  -moz-transition: border-bottom 0.25s, background-color 0.25s;
+  transition-timing-function: ease;
+  transition: border-bottom 0.25s, background-color 0.25s;
+  -webkit-transition: border-bottom 0.25s, background-color 0.25s;
+  -webkit-transition-timing-function: ease;
+}
+.fb-btn-action-3d:active {
+  background-color: #03e260;
+  border-bottom: 4px solid #01d65c;
+  -o-transition-timing-function: ease;
+  -o-transition: border-bottom 0.1s, background-color 0.1s;
+  -moz-transition-timing-function: ease;
+  -moz-transition: border-bottom 0.1s, background-color 0.1s;
+  transition-timing-function: ease;
+  transition: border-bottom 0.1s, background-color 0.1s;
+  -webkit-transition: border-bottom 0.1s, background-color 0.1s;
+  -webkit-transition-timing-function: ease;
+}
+.fb-btn-caution-3d {
+  border-bottom: 6px solid #db5c00;
+  background-color: #f46700;
+  color: white;
+  display: block;
+}
+.fb-btn-caution-3d:hover {
+  background-color: #f77a1f;
+  border-bottom: 8px solid #db5c00;
+  -o-transition-timing-function: ease;
+  -o-transition: border-bottom 0.25s, background-color 0.25s;
+  -moz-transition-timing-function: ease;
+  -moz-transition: border-bottom 0.25s, background-color 0.25s;
+  transition-timing-function: ease;
+  transition: border-bottom 0.25s, background-color 0.25s;
+  -webkit-transition: border-bottom 0.25s, background-color 0.25s;
+  -webkit-transition-timing-function: ease;
+}
+.fb-btn-caution-3d:active {
+  background-color: #f46700;
+  border-bottom: 4px solid #db5c00;
+  -o-transition-timing-function: ease;
+  -o-transition: border-bottom 0.1s, background-color 0.1s;
+  -moz-transition-timing-function: ease;
+  -moz-transition: border-bottom 0.1s, background-color 0.1s;
+  transition-timing-function: ease;
+  transition: border-bottom 0.1s, background-color 0.1s;
+  -webkit-transition: border-bottom 0.1s, background-color 0.1s;
+  -webkit-transition-timing-function: ease;
+}
+.fb-btn-danger-3d {
+  border-bottom: 6px solid #cc1200;
+  background-color: #ff1700;
+  color: white;
+  display: block;
+}
+.fb-btn-danger-3d:hover {
+  background-color: #ff291f;
+  border-bottom: 8px solid #cc1200;
+  -o-transition-timing-function: ease;
+  -o-transition: border-bottom 0.25s, background-color 0.25s;
+  -moz-transition-timing-function: ease;
+  -moz-transition: border-bottom 0.25s, background-color 0.25s;
+  transition-timing-function: ease;
+  transition: border-bottom 0.25s, background-color 0.25s;
+  -webkit-transition: border-bottom 0.25s, background-color 0.25s;
+  -webkit-transition-timing-function: ease;
+}
+.fb-btn-danger-3d:active {
+  background-color: #f7001c;
+  border-bottom: 4px solid #cc1200;
+  -o-transition-timing-function: ease;
+  -o-transition: border-bottom 0.1s, background-color 0.1s;
+  -moz-transition-timing-function: ease;
+  -moz-transition: border-bottom 0.1s, background-color 0.1s;
+  transition-timing-function: ease;
+  transition: border-bottom 0.1s, background-color 0.1s;
+  -webkit-transition: border-bottom 0.1s, background-color 0.1s;
+  -webkit-transition-timing-function: ease;
+}
+.fb-btn-secondary-3d {
+  border-bottom: 6px solid #55017f;
+  background-color: #660198;
+  color: white;
+  display: block;
+}
+.fb-btn-secondary-3d:hover {
+  background-color: #8000b4;
+  border-bottom: 8px solid #55017f;
+  -o-transition-timing-function: ease;
+  -o-transition: border-bottom 0.25s, background-color 0.25s;
+  -moz-transition-timing-function: ease;
+  -moz-transition: border-bottom 0.25s, background-color 0.25s;
+  transition-timing-function: ease;
+  transition: border-bottom 0.25s, background-color 0.25s;
+  -webkit-transition: border-bottom 0.25s, background-color 0.25s;
+  -webkit-transition-timing-function: ease;
+}
+.fb-btn-secondary-3d:active {
+  background-color: #7100a8;
+  border-bottom: 4px solid #55017f;
+  -o-transition-timing-function: ease;
+  -o-transition: border-bottom 0.1s, background-color 0.1s;
+  -moz-transition-timing-function: ease;
+  -moz-transition: border-bottom 0.1s, background-color 0.1s;
+  transition-timing-function: ease;
+  transition: border-bottom 0.1s, background-color 0.1s;
+  -webkit-transition: border-bottom 0.1s, background-color 0.1s;
+  -webkit-transition-timing-function: ease;
+}
+.fb-btn-background-3d {
+  border-bottom: 6px solid #00b39e;
+  background-color: #00ccb5;
+  color: white;
+  display: block;
+}
+.fb-btn-background-3d:hover {
+  background-color: #00ddc4;
+  border-bottom: 8px solid #00b39e;
+  -o-transition-timing-function: ease;
+  -o-transition: border-bottom 0.25s, background-color 0.25s;
+  -moz-transition-timing-function: ease;
+  -moz-transition: border-bottom 0.25s, background-color 0.25s;
+  transition-timing-function: ease;
+  transition: border-bottom 0.25s, background-color 0.25s;
+  -webkit-transition: border-bottom 0.25s, background-color 0.25s;
+  -webkit-transition-timing-function: ease;
+}
+.fb-btn-background-3d:active {
+  background-color: #00d8b3;
+  border-bottom: 4px solid #00b39e;
+  -o-transition-timing-function: ease;
+  -o-transition: border-bottom 0.1s, background-color 0.1s;
+  -moz-transition-timing-function: ease;
+  -moz-transition: border-bottom 0.1s, background-color 0.1s;
+  transition-timing-function: ease;
+  transition: border-bottom 0.1s, background-color 0.1s;
+  -webkit-transition: border-bottom 0.1s, background-color 0.1s;
+  -webkit-transition-timing-function: ease;
+}
