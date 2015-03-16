@@ -1,3 +1,2 @@
 # Fab Buttons
-A Amazing collection of buttons built for the purposes for other to use and for the Fab Structure.
-Soooo Fab indeed....
+A Kewl Flat Button Collection
