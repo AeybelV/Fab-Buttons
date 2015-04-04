@@ -758,3 +758,168 @@ rgb(149, 32, 209)*/
   -webkit-transition: color 0.1s;
   -webkit-transition-timing-function: ease;
 }
+.fb-btn-letter-action {
+  display: block;
+  cursor: pointer;
+  font-family: "arial";
+  color: #01ef67;
+  font-size: 5rem;
+}
+.fb-btn-letter-action:hover {
+  display: block;
+  cursor: pointer;
+  color: #30f25f;
+  -o-transition-timing-function: ease;
+  -o-transition: color 0.25s;
+  -moz-transition-timing-function: ease;
+  -moz-transition: color 0.25s;
+  transition-timing-function: ease;
+  transition: color 0.25s;
+  -webkit-transition: color 0.25s;
+  -webkit-transition-timing-function: ease;
+}
+.fb-btn-letter-action:active {
+  display: block;
+  cursor: pointer;
+  color: #03e260;
+  -o-transition-timing-function: ease;
+  -o-transition: color 0.1s;
+  -moz-transition-timing-function: ease;
+  -moz-transition: color 0.1s;
+  transition-timing-function: ease;
+  transition: color 0.1s;
+  -webkit-transition: color 0.1s;
+  -webkit-transition-timing-function: ease;
+}
+.fb-btn-letter-caution {
+  display: block;
+  cursor: pointer;
+  font-family: "arial";
+  color: #f46700;
+  font-size: 5rem;
+}
+.fb-btn-letter-caution:hover {
+  display: block;
+  cursor: pointer;
+  color: #f77a1f;
+  -o-transition-timing-function: ease;
+  -o-transition: color 0.25s;
+  -moz-transition-timing-function: ease;
+  -moz-transition: color 0.25s;
+  transition-timing-function: ease;
+  transition: color 0.25s;
+  -webkit-transition: color 0.25s;
+  -webkit-transition-timing-function: ease;
+}
+.fb-btn-letter-caution:active {
+  display: block;
+  cursor: pointer;
+  color: #f46700;
+  -o-transition-timing-function: ease;
+  -o-transition: color 0.1s;
+  -moz-transition-timing-function: ease;
+  -moz-transition: color 0.1s;
+  transition-timing-function: ease;
+  transition: color 0.1s;
+  -webkit-transition: color 0.1s;
+  -webkit-transition-timing-function: ease;
+}
+.fb-btn-letter-danger {
+  display: block;
+  cursor: pointer;
+  font-family: "arial";
+  color: #ff1700;
+  font-size: 5rem;
+}
+.fb-btn-letter-danger:hover {
+  display: block;
+  cursor: pointer;
+  color: #ff291f;
+  -o-transition-timing-function: ease;
+  -o-transition: color 0.25s;
+  -moz-transition-timing-function: ease;
+  -moz-transition: color 0.25s;
+  transition-timing-function: ease;
+  transition: color 0.25s;
+  -webkit-transition: color 0.25s;
+  -webkit-transition-timing-function: ease;
+}
+.fb-btn-letter-danger:active {
+  display: block;
+  cursor: pointer;
+  color: #f7001c;
+  -o-transition-timing-function: ease;
+  -o-transition: color 0.1s;
+  -moz-transition-timing-function: ease;
+  -moz-transition: color 0.1s;
+  transition-timing-function: ease;
+  transition: color 0.1s;
+  -webkit-transition: color 0.1s;
+  -webkit-transition-timing-function: ease;
+}
+.fb-btn-letter-secondary {
+  display: block;
+  cursor: pointer;
+  font-family: "arial";
+  color: #660198;
+  font-size: 5rem;
+}
+.fb-btn-letter-secondary:hover {
+  display: block;
+  cursor: pointer;
+  color: #8000b4;
+  -o-transition-timing-function: ease;
+  -o-transition: color 0.25s;
+  -moz-transition-timing-function: ease;
+  -moz-transition: color 0.25s;
+  transition-timing-function: ease;
+  transition: color 0.25s;
+  -webkit-transition: color 0.25s;
+  -webkit-transition-timing-function: ease;
+}
+.fb-btn-letter-secondary:active {
+  display: block;
+  cursor: pointer;
+  color: #7100a8;
+  -o-transition-timing-function: ease;
+  -o-transition: color 0.1s;
+  -moz-transition-timing-function: ease;
+  -moz-transition: color 0.1s;
+  transition-timing-function: ease;
+  transition: color 0.1s;
+  -webkit-transition: color 0.1s;
+  -webkit-transition-timing-function: ease;
+}
+.fb-btn-letter-background {
+  display: block;
+  cursor: pointer;
+  font-family: "arial";
+  color: #00ccb5;
+  font-size: 5rem;
+}
+.fb-btn-letter-background:hover {
+  display: block;
+  cursor: pointer;
+  color: #00ddc4;
+  -o-transition-timing-function: ease;
+  -o-transition: color 0.25s;
+  -moz-transition-timing-function: ease;
+  -moz-transition: color 0.25s;
+  transition-timing-function: ease;
+  transition: color 0.25s;
+  -webkit-transition: color 0.25s;
+  -webkit-transition-timing-function: ease;
+}
+.fb-btn-letter-background:active {
+  display: block;
+  cursor: pointer;
+  color: #00d8b3;
+  -o-transition-timing-function: ease;
+  -o-transition: color 0.1s;
+  -moz-transition-timing-function: ease;
+  -moz-transition: color 0.1s;
+  transition-timing-function: ease;
+  transition: color 0.1s;
+  -webkit-transition: color 0.1s;
+  -webkit-transition-timing-function: ease;
+}
